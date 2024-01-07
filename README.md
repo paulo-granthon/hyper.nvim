@@ -1,2 +1,1 @@
 # hyper.nvim
-# hyper.nvim
