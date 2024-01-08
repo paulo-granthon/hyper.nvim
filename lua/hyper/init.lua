@@ -10,8 +10,8 @@ if not colors_ok then return error.throw(colors_or_err) end
 
 local colors = colors_or_err
 
-function M.load(opts)
-    print(opts)
+function M.load()
+    M.set_highlight()
 end
 
 function M.set_highlight()
