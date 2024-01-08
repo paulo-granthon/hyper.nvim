@@ -15,3 +15,6 @@ Enable the colorscheme:
 ```lua
 require 'hyper'.load()
 ```
+
+# License
+This project is licensed under the [MIT License](https://github.com/paulo-granthon/hyper.nvim/blob/main/LICENSE).
