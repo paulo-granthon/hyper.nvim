@@ -9,7 +9,7 @@ function M.get()
         ColorColumn = { fg = 'NONE', bg = '#333333' },
         LineNr = { fg = '#3a3a3a', bg = '#000000' },
         VertSplit = { fg = '#3a3a3a', bg = '#000000', bold = true },
-        MatchParen = { fg = '#ff0000', bg = 'NONE', underline = true },
+        MatchParen = { fg = '#ff0000', bg = 'NONE', reverse = true },
         StatusLine = { fg = '#ffffff', bg = '#333333', bold = true },
         StatusLineNC = { fg = '#ffffff', bg = '#333333' },
         Pmenu = { fg = 'NONE', bg = 'NONE' },
