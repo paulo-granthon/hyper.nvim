@@ -71,9 +71,9 @@ function M.get()
         fugitiveUnstagedHeading = { fg = '#0066ff', bg = 'NONE', bold = true, italic = false },
         fugitiveStagedHeading = { fg = '#cc00ff', bg = 'NONE', bold = true, italic = false },
 
-        fugitiveUntrackedSection = { fg = '#ffff00', bg = 'NONE', italic = true },
-        fugitiveUnstagedSection = { fg = '#ffff00', bg = 'NONE', italic = true },
-        fugitiveStagedSection = { fg = '#ffff00', bg = 'NONE', italic = true },
+        fugitiveUntrackedSection = { fg = '#ffffff', bg = 'NONE', italic = true },
+        fugitiveUnstagedSection = { fg = '#ffffff', bg = 'NONE', italic = true },
+        fugitiveStagedSection = { fg = '#ffffff', bg = 'NONE', italic = true },
 
         fugitiveUntrackedModifier = { fg = '#ff0000', bg = 'NONE', bold = true, italic = true },
         fugitiveUnstagedModifier = { fg = '#0066ff', bg = 'NONE', bold = true, italic = true },
