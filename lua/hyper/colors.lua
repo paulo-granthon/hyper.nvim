@@ -65,10 +65,10 @@ function M.get()
         GitSignsAdd = { fg = 'NONE', bg = '#33ff00' },
         GitSignsRemoved = { fg = 'NONE', bg = '#ff0000' },
         GitSignsChange = { fg = 'NONE', bg = '#0066ff' },
+        DiffChange = { fg = 'NONE', bg = '#0066ff' },
 
         DiffAdded = { fg = '#33ff00', bg = 'NONE' },
         DiffRemoved = { fg = '#ff0000', bg = 'NONE' },
-        DiffChange = { fg = '#0066ff', bg = 'NONE' },
 
         fugitiveHunk = { fg = '#808080', bg = 'NONE', italic = true },
 
