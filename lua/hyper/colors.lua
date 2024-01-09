@@ -47,10 +47,19 @@ function M.get()
         rainbow5 = { fg = '#cc00ff' },
         rainbow6 = { fg = '#333333' },
 
-        DiffLine = { fg = '#000000', bg = '#cc00ff', bold = true, italic = true },
+        RainbowDelimiterYellow = { fg = '#ffff00' },
+        RainbowDelimiterBlue = { fg = '#0066ff' },
+        RainbowDelimiterOrange = { fg = '#ff0000' },
+        RainbowDelimiterGreen = { fg = '#33ff00' },
+        RainbowDelimiterViolet = { fg = '#cc00ff' },
+        RainbowDelimiterCyan = { fg = '#0066ff' },
+        RainbowDelimiterRed = { fg = '#ff0000' },
+
         DiffAdd = { fg = '#ffffff', bg = '#33ff00', bold = true },
-        DiffAdded = { fg = 'NONE', bg = '#33ff00' },
         DiffDelete = { fg = '#ff0000', bg = 'NONE', bold = true },
+
+        DiffLine = { fg = '#cc00ff', bg = 'NONE', italic = true },
+        DiffAdded = { fg = 'NONE', bg = '#33ff00' },
         DiffRemoved = { fg = 'NONE', bg = '#ff0000' },
         DiffChange = { fg = '#ffffff', bg = '#0066ff' },
         DiffText = { fg = '#ffffff', bg = '#0066ff', bold = true },
@@ -59,9 +68,13 @@ function M.get()
         fugitiveUnstagedHeading = { fg = '#0066ff', bg = 'NONE', bold = true, italic = false },
         fugitiveStagedHeading = { fg = '#cc00ff', bg = 'NONE', bold = true, italic = false },
 
-        fugitiveUntrackedSection = { fg = '#0066ff', bg = 'NONE', italic = true },
-        fugitiveUnstagedSection = { fg = '#0066ff', bg = 'NONE', italic = true },
-        fugitiveStagedSection = { fg = '#0066ff', bg = 'NONE', italic = true },
+        fugitiveUntrackedSection = { fg = '#ffff00', bg = 'NONE', italic = true, strikethrough = true },
+        fugitiveUnstagedSection = { fg = '#ffff00', bg = 'NONE', italic = true },
+        fugitiveStagedSection = { fg = '#ffff00', bg = 'NONE', italic = true },
+
+        fugitiveUntrackedModifier = { fg = '#ff0000', bg = 'NONE', bold = true, italic = true },
+        fugitiveUnstagedModifier = { fg = '#0066ff', bg = 'NONE', bold = true, italic = true },
+        fugitiveStagedModifier = { fg = '#cc00ff', bg = 'NONE', bold = true, italic = true },
 
         ErrorMsg = { fg = '#ffffff', bg = '#ff0000' },
         WarningMsg = { fg = '#ffffff', bg = '#ff0000' },
