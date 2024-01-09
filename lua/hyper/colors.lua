@@ -59,11 +59,12 @@ function M.get()
         DiffDelete = { fg = '#ff0000', bg = 'NONE', bold = true },
 
         DiffLine = { fg = '#cc00ff', bg = 'NONE', italic = true },
-        diffSubName = { fg = '#cc00ff', bg = '#333333', bold = true },
-        DiffAdded = { fg = '#33ff00', bg = 'NONE' },
-        DiffRemoved = { fg = '#ff0000', bg = 'NONE' },
-        DiffChange = { fg = '#ffffff', bg = '#0066ff' },
         DiffText = { fg = '#ffffff', bg = '#0066ff', bold = true },
+        diffSubName = { fg = '#cc00ff', bg = '#333333', bold = true },
+
+        DiffAdded = { fg = 'NONE', bg = '#33ff00' },
+        DiffRemoved = { fg = 'NONE', bg = '#ff0000' },
+        DiffChange = { fg = 'NONE', bg = '#0066ff' },
 
         fugitiveHunk = { fg = '#808080', bg = 'NONE', italic = true },
 
