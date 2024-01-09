@@ -28,8 +28,11 @@ function M.get()
         Constant = { fg = 'NONE', bg = 'NONE' },
         Define = { fg = '#ff0000', bg = 'NONE' },
 
+        DiffLine = { fg = '#000000', bg = '#cc00ff', bold = true, italic = true },
         DiffAdd = { fg = '#ffffff', bg = '#33ff00', bold = true },
+        DiffAdded = { fg = 'NONE', bg = '#33ff00' },
         DiffDelete = { fg = '#ff0000', bg = 'NONE', bold = true },
+        DiffRemoved = { fg = 'NONE', bg = '#ff0000' },
         DiffChange = { fg = '#ffffff', bg = '#0066ff' },
         DiffText = { fg = '#ffffff', bg = '#0066ff', bold = true },
 
