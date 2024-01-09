@@ -40,6 +40,13 @@ function M.get()
         GlyphPalette7 = { fg = '#808080' },
         GlyphPalette9 = { fg = '#3a3a3a' },
 
+        rainbow1 = { fg = '#ff0000' },
+        rainbow2 = { fg = '#ffff00' },
+        rainbow3 = { fg = '#33ff00' },
+        rainbow4 = { fg = '#0066ff' },
+        rainbow5 = { fg = '#cc00ff' },
+        rainbow6 = { fg = '#333333' },
+
         DiffLine = { fg = '#000000', bg = '#cc00ff', bold = true, italic = true },
         DiffAdd = { fg = '#ffffff', bg = '#33ff00', bold = true },
         DiffAdded = { fg = 'NONE', bg = '#33ff00' },
