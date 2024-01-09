@@ -28,6 +28,10 @@ function M.get()
         Constant = { fg = 'NONE', bg = 'NONE' },
         Define = { fg = '#ff0000', bg = 'NONE' },
 
+        healthError = { fg = '#ff0000' },
+        healthSuccess = { fg = '#33ff00' },
+        healthWarning = { fg = '#ffff00' },
+
         DiffLine = { fg = '#000000', bg = '#cc00ff', bold = true, italic = true },
         DiffAdd = { fg = '#ffffff', bg = '#33ff00', bold = true },
         DiffAdded = { fg = 'NONE', bg = '#33ff00' },
