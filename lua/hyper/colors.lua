@@ -36,6 +36,14 @@ function M.get()
         DiffChange = { fg = '#ffffff', bg = '#0066ff' },
         DiffText = { fg = '#ffffff', bg = '#0066ff', bold = true },
 
+        fugitiveUntrackedHeading = { fg = '#ff0000', bg = 'NONE', bold = true, italic = false },
+        fugitiveUnstagedHeading = { fg = '#0066ff', bg = 'NONE', bold = true, italic = false },
+        fugitiveStagedHeading = { fg = '#cc00ff', bg = 'NONE', bold = true, italic = false },
+
+        fugitiveUntrackedSection = { fg = '#0066ff', bg = 'NONE', italic = true },
+        fugitiveUnstagedSection = { fg = '#0066ff', bg = 'NONE', italic = true },
+        fugitiveStagedSection = { fg = '#0066ff', bg = 'NONE', italic = true },
+
         ErrorMsg = { fg = '#ffffff', bg = '#ff0000' },
         WarningMsg = { fg = '#ffffff', bg = '#ff0000' },
         Float = { fg = '#cc00ff', bg = 'NONE' },
