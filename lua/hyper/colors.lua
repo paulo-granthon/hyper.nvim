@@ -49,7 +49,7 @@ function M.get()
         String = { fg = '#ffff00', bg = 'NONE' },
         Tag = { fg = '#ff0000', bg = 'NONE' },
         Title = { fg = '#ffffff', bg = 'NONE', bold = true },
-        Todo = { fg = '#cc00ff', bg = 'NONE', reverse = true, bold = true },
+        Todo = { fg = 'NONE', bg = '#cc00ff', bold = true },
         Type = { fg = '#33ff00', bg = 'NONE' },
         Underlined = { fg = 'NONE', bg = 'NONE', underline = true },
 
