@@ -62,6 +62,10 @@ function M.get()
         DiffText = { fg = '#ffffff', bg = '#0066ff', bold = true },
         diffSubName = { fg = '#cc00ff', bg = '#000000', bold = true },
 
+        GitSignsAdd = { fg = 'NONE', bg = '#33ff00' },
+        GitSignsRemoved = { fg = 'NONE', bg = '#ff0000' },
+        GitSignsChange = { fg = 'NONE', bg = '#0066ff' },
+
         DiffAdded = { fg = 'NONE', bg = '#33ff00' },
         DiffRemoved = { fg = 'NONE', bg = '#ff0000' },
         DiffChange = { fg = 'NONE', bg = '#0066ff' },
