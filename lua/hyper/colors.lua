@@ -32,6 +32,14 @@ function M.get()
         healthSuccess = { fg = '#33ff00' },
         healthWarning = { fg = '#ffff00' },
 
+        GlyphPalette1 = { fg = '#ff0000' },
+        GlyphPalette2 = { fg = '#ffff00' },
+        GlyphPalette3 = { fg = '#33ff00' },
+        GlyphPalette4 = { fg = '#0066ff' },
+        GlyphPalette6 = { fg = '#cc00ff' },
+        GlyphPalette7 = { fg = '#808080' },
+        GlyphPalette9 = { fg = '#3a3a3a' },
+
         DiffLine = { fg = '#000000', bg = '#cc00ff', bold = true, italic = true },
         DiffAdd = { fg = '#ffffff', bg = '#33ff00', bold = true },
         DiffAdded = { fg = 'NONE', bg = '#33ff00' },
