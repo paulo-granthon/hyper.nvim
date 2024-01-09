@@ -64,6 +64,8 @@ function M.get()
         DiffChange = { fg = '#ffffff', bg = '#0066ff' },
         DiffText = { fg = '#ffffff', bg = '#0066ff', bold = true },
 
+        fugitiveHunk = { fg = '#808080', bg = 'NONE', italic = true },
+
         fugitiveUntrackedHeading = { fg = '#ff0000', bg = 'NONE', bold = true, italic = false },
         fugitiveUnstagedHeading = { fg = '#0066ff', bg = 'NONE', bold = true, italic = false },
         fugitiveStagedHeading = { fg = '#cc00ff', bg = 'NONE', bold = true, italic = false },
