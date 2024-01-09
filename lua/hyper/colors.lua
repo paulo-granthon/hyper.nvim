@@ -3,7 +3,7 @@ local M = {}
 function M.get()
     return {
         Cursor = { fg = '#cc00ff', bg = '#ffffff' },
-        Visual = { fg = 'NONE', bg = '#000000' },
+        Visual = { fg = 'NONE', bg = 'NONE', reverse = true },
         CursorLine = { fg = 'NONE', bg = '#000000' },
         CursorColumn = { fg = 'NONE', bg = '#000000' },
         ColorColumn = { fg = 'NONE', bg = '#333333' },
