@@ -59,6 +59,7 @@ function M.get()
         DiffDelete = { fg = '#ff0000', bg = 'NONE', bold = true },
 
         DiffLine = { fg = '#cc00ff', bg = 'NONE', italic = true },
+        diffSubName = { fg = '#cc00ff', bg = '#333333', bold = true },
         DiffAdded = { fg = '#33ff00', bg = 'NONE' },
         DiffRemoved = { fg = '#ff0000', bg = 'NONE' },
         DiffChange = { fg = '#ffffff', bg = '#0066ff' },
