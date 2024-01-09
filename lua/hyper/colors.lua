@@ -27,10 +27,12 @@ function M.get()
         Conditional = { fg = '#ff0000', bg = 'NONE' },
         Constant = { fg = 'NONE', bg = 'NONE' },
         Define = { fg = '#ff0000', bg = 'NONE' },
+
         DiffAdd = { fg = '#ffffff', bg = '#33ff00', bold = true },
-        DiffDelete = { fg = '#ff0000', bg = 'NONE' },
+        DiffDelete = { fg = '#ff0000', bg = 'NONE', bold = true },
         DiffChange = { fg = '#ffffff', bg = '#0066ff' },
         DiffText = { fg = '#ffffff', bg = '#0066ff', bold = true },
+
         ErrorMsg = { fg = '#ffffff', bg = '#ff0000' },
         WarningMsg = { fg = '#ffffff', bg = '#ff0000' },
         Float = { fg = '#cc00ff', bg = 'NONE' },
