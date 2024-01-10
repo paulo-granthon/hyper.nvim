@@ -2,7 +2,7 @@ local M = {}
 
 local types_ok, _ = pcall(require, 'hyper.types.error')
 if not types_ok then
-    return vim.api.nvim_err_writeln(require('hyper.const.error').import_error)
+    return vim.api.nvim_err_writeln(require('hyper.const.error').err_types)
 end
 
 ---Throws the given error, closing the current execution of hyper.nvim
