@@ -1,0 +1,10 @@
+---@class HighlightData
+---@field name string The name of the highlight group.
+---@field fg? string The foreground color of the highlight group.
+---@field bg? string The background color of the highlight group.
+---@field bold? boolean Whether the highlight group is bold.
+---@field italic? boolean Whether the highlight group is italic.
+---@field underline? boolean Whether the highlight group is underlined.
+---@field undercurl? boolean Whether the highlight group is undercurled.
+---@field reverse? boolean Whether the highlight group is reversed.
+---@field strikethrough? boolean Whether the highlight group is strikethrough.
