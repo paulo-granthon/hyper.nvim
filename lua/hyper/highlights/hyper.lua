@@ -165,6 +165,7 @@ return {
   elixirStringDelimiter = { fg = 'YELLOW' },
 
   ['@constructor.go'] = { fg = 'MAGENTA' },
+  ['@constant.builtin.go'] = { fg = 'MAGENTA' },
 
   vimGroupName = { fg = 'GREEN' },
   vimGroup = { fg = 'GREEN' },
