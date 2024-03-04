@@ -23,7 +23,8 @@ use('paulo-granthon/hyper.nvim')
 
 ## Enable hyper.nvim
 
-Make sure to call `load` at some point. If you use Lazy, you can do it like this:
+Make sure to call `load` at some point.
+If you use Lazy, you can do it by declaring the plugin dependency like this:
 
 ```lua
 -- init.lua or plugins/hyper.lua
