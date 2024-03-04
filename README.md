@@ -5,6 +5,14 @@ theme for [Neovim](https://neovim.io/) with a few opinionated changes.
 
 ![Hyper.nvim example](./docs/example.png)
 
+<!-- markdownlint-disable MD013 MD033 -->
+<h4>
+<details>
+  <summary>This theme is inspired by the high contrast and saturated colors of the original <a href='https://hyper.is'>Hyper terminal</a></summary>
+  <img alt="Hyper terminal" src="./docs/hyper-terminal.png" align="center" />
+  </details>
+</h4>
+
 ## Installation and usage
 
 Install via your favorite plugin manager, for example [lazy](https://github.com/folke/lazy.nvim):
