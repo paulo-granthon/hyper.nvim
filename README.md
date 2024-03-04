@@ -61,6 +61,8 @@ Personaly, I think the theme looks the best while having a transparent backgroun
 so I use the following settings to achieve that:
 
 ```lua
+local no_bg = { bg = 'none' }
+
 vim.api.nvim_set_hl(0, 'Normal', no_bg)
 vim.api.nvim_set_hl(0, 'NormalFloat', no_bg)
 vim.api.nvim_set_hl(0, 'EndOfBuffer', no_bg)
