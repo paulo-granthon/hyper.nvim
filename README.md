@@ -57,7 +57,10 @@ Currently, customization is still a work in progress.
 
 `todo!()`
 
-Personaly, I think the theme looks the best while having a transparent background,
+However, you can overwrite any changes that `Hyper.nvim` makes after calling the `load` function.  
+
+Personaly, I think the theme looks the best while having a transparent background
+instead of the theme's pitch black one,
 so I use the following settings to achieve that:
 
 ```lua
