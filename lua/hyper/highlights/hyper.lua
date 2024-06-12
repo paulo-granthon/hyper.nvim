@@ -140,6 +140,8 @@ return {
   htmlArg = { fg = 'YELLOW' },
   htmlSpecialChar = { fg = 'MAGENTA' },
 
+  ['@variable'] = { fg = 'GREEN' },
+
   javaScriptFunction = { fg = 'GREEN', italic = true },
   javaScriptRailsFunction = { fg = 'GREEN' },
   javaScriptBraces = { fg = 'GREEN' },
