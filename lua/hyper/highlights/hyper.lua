@@ -141,10 +141,16 @@ return {
   htmlSpecialChar = { fg = 'MAGENTA' },
 
   ['@variable'] = { fg = 'GREEN' },
+  ['@type.builtin.java'] = { fg = 'MAGENTA' },
+  ['@lsp.type.modifier.java'] = { fg = 'RED' },
+  ['@lsp.typemod.parameter.declaration.java'] = { fg = 'WHITE' },
 
   javaScriptFunction = { fg = 'GREEN', italic = true },
   javaScriptRailsFunction = { fg = 'GREEN' },
   javaScriptBraces = { fg = 'GREEN' },
+
+  ['@variable.builtin.typescript'] = { fg = 'MAGENTA' },
+  ['@constructor.typescript'] = { fg = 'MAGENTA' },
 
   yamlKey = { fg = 'RED' },
   yamlAnchor = { fg = 'MAGENTA' },
