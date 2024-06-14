@@ -91,7 +91,7 @@ return {
   NonText = { fg = 'darker_gray', bg = 'BLACK' },
   Number = { fg = 'MAGENTA' },
   Operator = { fg = 'RED' },
-  PreProc = { fg = 'RED' },
+  PreProc = { fg = 'MAGENTA' },
   Special = { fg = 'WHITE' },
   SpecialKey = { fg = 'darker_gray', bg = 'BLACK' },
   Statement = { fg = 'RED' },
