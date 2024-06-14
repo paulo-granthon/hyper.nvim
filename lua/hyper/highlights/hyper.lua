@@ -146,6 +146,10 @@ return {
   javaScriptRailsFunction = { fg = 'GREEN' },
   javaScriptBraces = { fg = 'GREEN' },
 
+  ['@type.builtin.java'] = { fg = 'MAGENTA' },
+  ['@lsp.type.modifier.java'] = { fg = 'RED' },
+  ['@lsp.typemod.parameter.declaration.java'] = { fg = 'WHITE' },
+
   yamlKey = { fg = 'RED' },
   yamlAnchor = { fg = 'MAGENTA' },
   yamlAlias = { fg = 'BLUE' },
