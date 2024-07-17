@@ -103,9 +103,7 @@ return {
   Type = { fg = 'GREEN' },
   Underlined = { underline = true },
 
-  TabLineFill = { fg = 'darker_gray', bg = 'BLACK' },
-  TabLine = { fg = 'GRAY', bg = 'BLACK' },
-  TabLineSel = { fg = 'WHITE', bg = 'BLACK' },
+  ['@variable'] = { fg = 'GREEN' },
 
   rubyClass = { fg = 'RED' },
   rubyFunction = { fg = 'BLUE' },
@@ -140,7 +138,6 @@ return {
   htmlArg = { fg = 'YELLOW' },
   htmlSpecialChar = { fg = 'MAGENTA' },
 
-  ['@variable'] = { fg = 'GREEN' },
   ['@type.builtin.java'] = { fg = 'MAGENTA' },
   ['@lsp.type.modifier.java'] = { fg = 'RED' },
   ['@lsp.typemod.parameter.declaration.java'] = { fg = 'WHITE' },
@@ -180,4 +177,8 @@ return {
   vimOption = { fg = 'GREEN' },
   -- vimHiCtermFgBg = {},
   -- vimHiGuiFgBg = {}
+
+  TabLineFill = { fg = 'darker_gray', bg = 'BLACK' },
+  TabLine = { fg = 'GRAY', bg = 'BLACK' },
+  TabLineSel = { fg = 'WHITE', bg = 'BLACK' },
 }
