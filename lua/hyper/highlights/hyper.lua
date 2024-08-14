@@ -105,6 +105,8 @@ return {
 
   ['@variable'] = { fg = 'GREEN' },
 
+  ['@constructor.python'] = { fg = 'MAGENTA' },
+
   rubyClass = { fg = 'RED' },
   rubyFunction = { fg = 'BLUE' },
   rubyInterpolationDelimiter = { fg = 'BLUE', italic = true },
