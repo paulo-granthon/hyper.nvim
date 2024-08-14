@@ -57,7 +57,7 @@ Currently, customization is still a work in progress.
 
 `todo!()`
 
-However, you can overwrite any changes that `Hyper.nvim` makes after calling the `load` function.  
+However, you can overwrite any changes that `Hyper.nvim` makes after calling the `load` function.
 
 Personaly, I think the theme looks the best while having a transparent background
 instead of the theme's pitch black one,
@@ -87,6 +87,8 @@ vim.api.nvim_set_hl(0, 'SignColumn', no_bg)
 Coupled with [Picom](https://github.com/yshui/picom)'s `blur-background` options, it looks like this:
 
 ![Hyper.nvim example transparent](./docs/example-transparent.png)
+
+_You can see this configuration in my [neovim](http://github.com/paulo-granthon/nvim/blob/main/plugin/colors.lua#L28-L38) dotfiles._
 
 ## License
 
