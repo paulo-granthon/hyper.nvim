@@ -52,6 +52,13 @@ return {
   RainbowDelimiterCyan = { fg = 'BLUE' },
   RainbowDelimiterRed = { fg = 'RED' },
 
+  TroubleIndentWs = { fg = 'WHITE' },
+  TroubleIndentTop = { fg = 'WHITE' },
+  TroubleIndentMiddle = { fg = 'WHITE' },
+  TroubleIndentLast = { fg = 'WHITE' },
+  TroubleIndentFoldOpen = { fg = 'WHITE' },
+  TroubleDiagnosticsPos = { fg = 'WHITE' },
+
   DiffAdd = { fg = 'WHITE', bg = 'GREEN', bold = true },
   DiffDelete = { fg = 'RED', bold = true },
 
